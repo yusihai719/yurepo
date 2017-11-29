@@ -1,0 +1,12 @@
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+
+
+#  无道词典   https://github.com/ChestnutHeng/Wudao-dict
+git clone --depth=1 https://github.com/chestnutheng/wudao-dict
+cd ./wudao-dict/wudao-dict
+sudo sh setup.sh
+
+#/etc/pacman.conf
+XferCommand = /usr/bin/aria2c -s 5 %u
+#XferCommand = /usr/bin/axel -n 5 -a -o %o %u

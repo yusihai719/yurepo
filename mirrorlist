@@ -1,0 +1,16 @@
+##
+## Manjaro Linux mirrorlist
+## Generated on 2017-11-27 18:45
+##
+## Use pacman-mirrors to modify
+##
+
+## Country : China
+Server = https://mirrors.ustc.edu.cn/manjaro/stable/$repo/$arch
+
+## Country : China
+Server = http://mirrors.tuna.tsinghua.edu.cn/manjaro/stable/$repo/$arch
+
+## Country : China
+Server = https://mirrors.zju.edu.cn/manjaro/stable/$repo/$arch
+
